@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainFromPendaftaran">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="From Pendaftaran"
+        android:textSize="25sp"
+        android:textColor="#F8B242"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <EditText
+        android:id="@+id/ETnama"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_from"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ETemail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_from"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:hint="Alamat Email"/>
+
+    <EditText
+        android:id="@+id/ETphone"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_from"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="phone"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:hint="No. Handphone"/>
+
+    <EditText
+        android:id="@+id/ETalamat"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_from"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:hint="Alamat Rumah"/>
+    <TextView
+        android:id="@+id/bt_submit"
+        android:layout_width="172dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bt_01"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+        android:gravity="center"
+        android:textColor="#F8B242"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+</LinearLayout>
